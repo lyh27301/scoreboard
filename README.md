@@ -9,4 +9,5 @@ This project simulated an interactive scoreboard. The display of total scores an
 - Refs for dynamically accessing input value. 
 - Props were properly desructed into separate variables.
 
-[Demo Link](https://lyh27301-scoreboard.netlify.app/)
+## Demo
+[Link](https://lyh27301-scoreboard.netlify.app/)
