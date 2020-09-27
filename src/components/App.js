@@ -10,22 +10,22 @@ class App extends React.Component {
   state = {
     players: [
       {
-        name: "Guil",
+        name: "Alice",
         id: 1,
         score: 0
       },
       {
-        name: "Treasure",
+        name: "Yanhan",
         id: 2,
         score: 0,
       },
       {
-        name: "Ashley",
+        name: "Kyla",
         id: 3,
         score: 0,
       },
       {
-        name: "James",
+        name: "Hannah",
         id: 4,
         score: 0,
       }
@@ -42,6 +42,7 @@ class App extends React.Component {
         if (indexChanged === index) {
           player.score += delta;
         }
+        if(player.score<0) { player.score = 0; }
         return player;
       }),
     }));
